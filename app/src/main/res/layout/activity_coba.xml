@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relatif1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+            <!--            <ImageView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:src="@drawable/side_nav_bar" />-->
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/relatif1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/download"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/dislike"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/user"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/play" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/play"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:paddingLeft="35dp"
+                android:clickable="true"
+                android:onClick="imageClick"
+                android:src="@drawable/streaming" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="Game On: Tempting Twenty-Eight Janet Evanovich (2021)"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:paddingLeft="35dp"
+                android:src="@drawable/search" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="Go Tell the Bees That I Am Gone Diana Gabaldon (2021)"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:paddingLeft="35dp"
+                android:src="@drawable/home" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="The Sentence Louise Erdrich (2021)"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:paddingLeft="35dp"
+                android:src="@drawable/search" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="The Dark Hours Michael Connelly (2021)"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:paddingLeft="35dp"
+                android:src="@drawable/like" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="The 1619 Project Nikole Hannah-Jones · The New York Times Magazine (2021)"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="600dp"
+                android:paddingLeft="35dp"
+                android:src="@drawable/user2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="Mercy David Baldacci (2021)"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

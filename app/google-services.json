@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084241118302",
+    "project_id": "susan-83b7e",
+    "storage_bucket": "susan-83b7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084241118302:android:c528b274edf806830ca0cf",
+        "android_client_info": {
+          "package_name": "com.example.susan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084241118302-elhlf28cjhj94qmiladier02snspmomk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_CxAGoI_mDTnSyeMrsmqIInQA8T6cGRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084241118302-elhlf28cjhj94qmiladier02snspmomk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
